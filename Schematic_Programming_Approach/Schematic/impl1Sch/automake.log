@@ -1,0 +1,4 @@
+
+sch2vlog -FPGA -i C:/Users/User/Documents/FPGA/Projects/Schematic/Trying.sch -o C:/Users/User/Documents/FPGA/Projects/Schematic/impl1Sch/Trying.v -gui -msgset C:/Users/User/Documents/FPGA/Projects/Schematic/promote.xml
+
+sch2vlog -FPGA -i C:/Users/User/Documents/FPGA/Projects/Schematic/Data_Acq.sch -o C:/Users/User/Documents/FPGA/Projects/Schematic/impl1Sch/Data_Acq.v -gui -msgset C:/Users/User/Documents/FPGA/Projects/Schematic/promote.xml

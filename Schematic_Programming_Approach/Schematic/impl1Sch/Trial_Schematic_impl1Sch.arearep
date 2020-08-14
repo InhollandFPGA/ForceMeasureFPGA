@@ -1,0 +1,60 @@
+----------------------------------------------------------------------
+Report for cell Data_Acq.TECH
+Register bits:  45 of 7485 (0.601%)
+I/O cells:      18
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         8          100.0
+                            EHXPLLJ         1          100.0
+                            FD1P3AX        14          100.0
+                            FD1P3IX        14          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3AY         1          100.0
+                            FD1S3IX        14          100.0
+                                GSR         1          100.0
+                                 IB        16          100.0
+                               LUT4        17          100.0
+                                 OB         2          100.0
+                           OFS1P3DX         1          100.0
+                              PFUMX         2          100.0
+SUB MODULES
+                                PLL         1
+                        Stable_Data         1
+                      load_register         1
+                 parallel_to_serial         1
+                              TOTAL        96
+----------------------------------------------------------------------
+Report for cell Stable_Data.v1
+Instance Path : I3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           OFS1P3DX         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell load_register.v1
+Instance Path : I2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3IX        14          100.0
+                               LUT4         1            5.9
+                              TOTAL        15
+----------------------------------------------------------------------
+Report for cell PLL.v1
+Instance Path : I4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLJ         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell parallel_to_serial.v1
+Instance Path : I1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         8          100.0
+                            FD1P3AX        14          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3AY         1          100.0
+                            FD1S3IX        14          100.0
+                               LUT4        15           88.2
+                              PFUMX         2          100.0
+                              TOTAL        55

@@ -1,0 +1,6 @@
+clk  i
+clkout  o
+reset  i
+sclk  o
+d[0]  i
+dout[0]  o

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v(3): </Dynamic>
+            <Dynamic>Data_Acq</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/pll.v(8): </Dynamic>
+            <Dynamic>PLL</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/pll.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1696): </Dynamic>
+            <Dynamic>EHXPLLJ_renamed_due_excessive_length_1</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1696</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(563): </Dynamic>
+            <Dynamic>INV</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>563</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/stable_data.v(8): </Dynamic>
+            <Dynamic>Stable_Data</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/stable_data.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(857): </Dynamic>
+            <Dynamic>OB</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>857</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1594): </Dynamic>
+            <Dynamic>ODDRXE</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1594</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(891): </Dynamic>
+            <Dynamic>OFS1P3DX</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>891</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/parrallel_serial.v(1): </Dynamic>
+            <Dynamic>parallel_to_serial</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/parrallel_serial.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/parrallel_serial.v(49): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>14</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/parrallel_serial.v</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/load_reg.v(1): </Dynamic>
+            <Dynamic>load_register</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/load_reg.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v(17): </Dynamic>
+            <Dynamic>CLKI</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35935034</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v(18): </Dynamic>
+            <Dynamic></Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35001537</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OB</Dynamic>
+            <Dynamic>O</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/user/documents/fpga/projects/schematic/pll.v(9): </Dynamic>
+            <Dynamic>\I4/CLKI</Dynamic>
+            <Navigation>c:/users/user/documents/fpga/projects/schematic/pll.v</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35001537</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OB</Dynamic>
+            <Dynamic>O</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>ADC_DATA_OUT_STABLE</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

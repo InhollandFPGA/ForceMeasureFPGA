@@ -1,0 +1,5 @@
+clk  i
+reset  i
+sclk  o
+datain[0]  i
+q[0]  o

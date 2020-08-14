@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Trial_Schematic" device="LCMXO3LF-6900C-6BG256I" default_implementation="impl1Sch">
+    <Options/>
+    <Implementation title="impl1Sch" dir="impl1Sch" description="impl1Sch" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="Data_Acq"/>
+        <Source name="../../versatile_library/trunk/rtl/verilog/registers.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="dff.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="int1.ipx" type="IPX_Module" type_short="IPX">
+            <Options top_module="int1"/>
+        </Source>
+        <Source name="Trying.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="Trying"/>
+        </Source>
+        <Source name="load_reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="parrallel_serial.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Data_Acq.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="Data_Acq"/>
+        </Source>
+        <Source name="Stable_Data.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="PLL.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="Trial_Schematic.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Trial_Schematic1.sty"/>
+</BaliProject>

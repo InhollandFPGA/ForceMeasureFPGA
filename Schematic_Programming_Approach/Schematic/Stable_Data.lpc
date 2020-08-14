@@ -1,0 +1,41 @@
+[Device]
+Family=machxo3lf
+PartType=LCMXO3LF-6900C
+PartName=LCMXO3LF-6900C-6BG256I
+SpeedGrade=6
+Package=CABGA256
+OperatingCondition=IND
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=SDR
+CoreRevision=6.0
+ModuleName=Stable_Data
+SourceFormat=Verilog HDL
+ParameterFileVersion=1.0
+Date=08/14/2020
+Time=13:53:39
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+mode=Transmit
+io_type=LVCMOS25
+width=1
+freq_in=166
+bandwidth=166
+interface=GOREG_TX.SCLK
+negedge=DISABLED
+del=
+fdel=
+
+[Command]
+cmd_line= -w -n Stable_Data -lang verilog -synth lse -bus_exp 7 -bb -arch xo3c00f -type iol -mode out -io_type LVCMOS25 -width 1 -freq_in 166 -clk sclk -aligned -gear 0

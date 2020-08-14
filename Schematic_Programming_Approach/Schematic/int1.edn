@@ -1,0 +1,110 @@
+(edif int1
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2020 8 14 13 50 48)
+      (program "SCUBA" (version "Diamond (64-bit) 3.11.0.396.4"))))
+      (comment "C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n int1 -lang verilog -synth lse -bus_exp 7 -bb -arch xo3c00f -type iol -mode in -io_type LVTTL33 -width 1 -freq_in 100 -clk sclk -aligned -del -1 -gear 0 ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell IFS1P3DX
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT))
+          (port SP
+            (direction INPUT))
+          (port SCLK
+            (direction INPUT))
+          (port CD
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell VHI
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell IB
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell int1
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port clk
+            (direction INPUT))
+          (port reset
+            (direction INPUT))
+          (port sclk
+            (direction OUTPUT))
+          (port (array (rename datain "datain(0:0)") 1)
+            (direction INPUT))
+          (port (array (rename q "q(0:0)") 1)
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance scuba_vhi_inst
+            (viewRef view1 
+              (cellRef VHI)))
+          (instance Inst3_IFS1P3DX0
+            (viewRef view1 
+              (cellRef IFS1P3DX)))
+          (instance Inst2_IB
+            (viewRef view1 
+              (cellRef IB))
+            (property IO_TYPE
+              (string "LVTTL33")))
+          (instance Inst1_IB0
+            (viewRef view1 
+              (cellRef IB))
+            (property IO_TYPE
+              (string "LVTTL33")))
+          (net scuba_vhi
+            (joined
+              (portRef Z (instanceRef scuba_vhi_inst))
+              (portRef SP (instanceRef Inst3_IFS1P3DX0))))
+          (net dataini_t0
+            (joined
+              (portRef D (instanceRef Inst3_IFS1P3DX0))
+              (portRef O (instanceRef Inst1_IB0))))
+          (net q0
+            (joined
+              (portRef (member q 0))
+              (portRef Q (instanceRef Inst3_IFS1P3DX0))))
+          (net datain0
+            (joined
+              (portRef (member datain 0))
+              (portRef I (instanceRef Inst1_IB0))))
+          (net sclk
+            (joined
+              (portRef sclk)
+              (portRef O (instanceRef Inst2_IB))
+              (portRef SCLK (instanceRef Inst3_IFS1P3DX0))))
+          (net reset
+            (joined
+              (portRef reset)
+              (portRef CD (instanceRef Inst3_IFS1P3DX0))))
+          (net clk
+            (joined
+              (portRef clk)
+              (portRef I (instanceRef Inst2_IB))))))))
+  (design int1
+    (cellRef int1
+      (libraryRef ORCLIB)))
+)

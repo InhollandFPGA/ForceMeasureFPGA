@@ -1,0 +1,37 @@
+Results of NGD DRC are available in load_register_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'D[13]' has no load.
+WARNING - synthesis: input pad net 'D[13]' has no legal load.
+WARNING - synthesis: logical net 'D[12]' has no load.
+WARNING - synthesis: input pad net 'D[12]' has no legal load.
+WARNING - synthesis: logical net 'D[11]' has no load.
+WARNING - synthesis: input pad net 'D[11]' has no legal load.
+WARNING - synthesis: logical net 'D[10]' has no load.
+WARNING - synthesis: input pad net 'D[10]' has no legal load.
+WARNING - synthesis: logical net 'D[9]' has no load.
+WARNING - synthesis: input pad net 'D[9]' has no legal load.
+WARNING - synthesis: logical net 'D[8]' has no load.
+WARNING - synthesis: input pad net 'D[8]' has no legal load.
+WARNING - synthesis: logical net 'D[7]' has no load.
+WARNING - synthesis: input pad net 'D[7]' has no legal load.
+WARNING - synthesis: logical net 'D[6]' has no load.
+WARNING - synthesis: input pad net 'D[6]' has no legal load.
+WARNING - synthesis: logical net 'D[5]' has no load.
+WARNING - synthesis: input pad net 'D[5]' has no legal load.
+WARNING - synthesis: logical net 'D[4]' has no load.
+WARNING - synthesis: input pad net 'D[4]' has no legal load.
+WARNING - synthesis: logical net 'GND_net' has no load.
+WARNING - synthesis: DRC complete with 21 warnings.
+
+Design Results:
+     20 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file Trial_Schematic_impl1Sch.ngd.

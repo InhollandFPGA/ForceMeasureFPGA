@@ -1,0 +1,264 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Aug 14 14:49:08 2020
+
+
+Command Line:  synthesis -f Trial_Schematic_impl1Sch_lattice.synproj -gui 
+
+Synthesis options:
+The -a option is MachXO3LF.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LCMXO3LF-6900C.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3LF
+
+### Device  : LCMXO3LF-6900C
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = Data_Acq.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/User/Documents/FPGA/Projects/Schematic (searchpath added)
+-p C:/lscc/diamond/3.11_x64/ispfpga/xo3c00f/data (searchpath added)
+-p C:/Users/User/Documents/FPGA/Projects/Schematic/impl1Sch (searchpath added)
+-p C:/Users/User/Documents/FPGA/Projects/Schematic (searchpath added)
+Verilog design file = C:/Users/User/Documents/FPGA/Projects/Schematic/int1.v
+Verilog design file = C:/Users/User/Documents/FPGA/Projects/Schematic/impl1Sch/Trying.v
+Verilog design file = C:/Users/User/Documents/FPGA/Projects/Schematic/load_reg.v
+Verilog design file = C:/Users/User/Documents/FPGA/Projects/Schematic/parrallel_serial.v
+Verilog design file = C:/Users/User/Documents/FPGA/Projects/Schematic/impl1Sch/Data_Acq.v
+Verilog design file = C:/Users/User/Documents/FPGA/Projects/Schematic/Stable_Data.v
+Verilog design file = C:/Users/User/Documents/FPGA/Projects/Schematic/PLL.v
+NGD file = Trial_Schematic_impl1Sch.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/users/user/documents/fpga/projects/schematic/int1.v. VERI-1482
+Analyzing Verilog file c:/users/user/documents/fpga/projects/schematic/impl1sch/trying.v. VERI-1482
+Analyzing Verilog file c:/users/user/documents/fpga/projects/schematic/load_reg.v. VERI-1482
+Analyzing Verilog file c:/users/user/documents/fpga/projects/schematic/parrallel_serial.v. VERI-1482
+Analyzing Verilog file c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v. VERI-1482
+Analyzing Verilog file c:/users/user/documents/fpga/projects/schematic/stable_data.v. VERI-1482
+Analyzing Verilog file c:/users/user/documents/fpga/projects/schematic/pll.v. VERI-1482
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Top module name (Verilog): Data_Acq
+INFO - synthesis: c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v(3): compiling module Data_Acq. VERI-1018
+INFO - synthesis: c:/users/user/documents/fpga/projects/schematic/pll.v(8): compiling module PLL. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): compiling module VLO. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1696): compiling module EHXPLLJ_renamed_due_excessive_length_1. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(563): compiling module INV. VERI-1018
+INFO - synthesis: c:/users/user/documents/fpga/projects/schematic/stable_data.v(8): compiling module Stable_Data. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(857): compiling module OB. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1594): compiling module ODDRXE. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): compiling module VHI. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(891): compiling module OFS1P3DX. VERI-1018
+INFO - synthesis: c:/users/user/documents/fpga/projects/schematic/parrallel_serial.v(1): compiling module parallel_to_serial. VERI-1018
+WARNING - synthesis: c:/users/user/documents/fpga/projects/schematic/parrallel_serial.v(49): expression size 32 truncated to fit in target size 14. VERI-1209
+INFO - synthesis: c:/users/user/documents/fpga/projects/schematic/load_reg.v(1): compiling module load_register. VERI-1018
+WARNING - synthesis: c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v(17): input port CLKI is not connected on this instance. VDB-1013
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Top-level module name = Data_Acq.
+WARNING - synthesis: c:/users/user/documents/fpga/projects/schematic/impl1sch/data_acq.v(18): Removing unused instance . VDB-5034
+WARNING - synthesis: Cell OB already has the black_box_pad_pin attribute on O.
+WARNING - synthesis: c:/users/user/documents/fpga/projects/schematic/pll.v(9): net \I4/CLKI does not have a driver. VDB-1002
+######## Missing driver on net \I4/CLKI. Patching with GND.
+
+
+
+WARNING - synthesis: Cell OB already has the black_box_pad_pin attribute on O.
+WARNING - synthesis: Skipping pad insertion on ADC_DATA_OUT_STABLE due to black_box_pad_pin attribute.
+GSR instance connected to net n95.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in Data_Acq_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file Trial_Schematic_impl1Sch.ngd.
+
+################### Begin Area Report (Data_Acq)######################
+Number of register bits => 45 of 7485 (0 % )
+CCU2D => 8
+EHXPLLJ => 1
+FD1P3AX => 14
+FD1P3IX => 14
+FD1S3AX => 1
+FD1S3AY => 1
+FD1S3IX => 14
+GSR => 1
+IB => 16
+LUT4 => 17
+OB => 2
+OFS1P3DX => 1
+PFUMX => 2
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : main_clk, loads : 46
+Clock Enable Nets
+Number of Clock Enables: 2
+Top 2 highest fanout Clock Enables:
+  Net : I1/empty_next, loads : 29
+  Net : main_clk_enable_14, loads : 1
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : I1/empty_next, loads : 29
+  Net : GSR_c, loads : 18
+  Net : main_clk_enable_14, loads : 14
+  Net : I1/count_reg_0, loads : 9
+  Net : I1/count_reg_2, loads : 6
+  Net : I1/count_reg_1, loads : 5
+  Net : I1/count_reg_3, loads : 3
+  Net : I1/count_reg_11, loads : 2
+  Net : I1/count_reg_9, loads : 2
+  Net : I1/count_reg_7, loads : 2
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets main_clk]                |  200.000 MHz|  185.082 MHz|     4 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 58.773  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.828  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>
