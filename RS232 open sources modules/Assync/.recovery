@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="TestAsyn" device="LCMXO3LF-6900C-6BG256I" default_implementation="impl1Async">
+    <Options/>
+    <Implementation title="impl1Async" dir="impl1Async" description="impl1Async" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="async_transmitter"/>
+        <Source name="../../async rs232 trans/async.v" type="Verilog" type_short="Verilog">
+            <Options top_module="async_transmitter"/>
+        </Source>
+        <Source name="../../async rs232 trans/com.c" type="Unknown Type" type_short="Unknown">
+            <Options/>
+        </Source>
+        <Source name="TestAsyn.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="TestAsyn1.sty"/>
+</BaliProject>
